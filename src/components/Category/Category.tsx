@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import JobContext from '../../contexts/job.context';
+import {ReactComponent as RemoveButton} from '../../assets/remove.svg';
 import styles from './Category.module.scss';
 
 const Category = () => {
@@ -18,7 +19,8 @@ const Category = () => {
                                 </div>
                                 <span 
                                     className={styles.category_remove} 
-                                    onClick={() => removeFilter(filter)}>x
+                                    onClick={() => removeFilter(filter)}>
+                                        <RemoveButton />
                                 </span>
                             </div>
                         ))

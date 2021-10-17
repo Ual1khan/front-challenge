@@ -8,3 +8,27 @@
     margin: 0 auto;
     position: relative;
 }
+
+@media(max-width: 1220px) {
+    .main {
+        width: 992px;
+    }
+}
+
+@media(max-width: 991px) {
+    .main {
+        width: 768px;
+    }
+}
+
+@media(max-width: 767px) {
+    .main {
+        width: 576px;
+    }
+}
+
+@media(max-width: 575px) {
+    .main {
+        width: 327px;
+    }
+}

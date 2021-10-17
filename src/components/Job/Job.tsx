@@ -28,6 +28,7 @@ const Job = (props: IJob) => {
                         </div>
                     </div>
                 </div>
+                <hr />
                 <div className={styles.job_tags}>
                     <div onClick={() => addFilter(props.role)}><span>{props.role}</span></div>
                     <div onClick={() => addFilter(props.level)}><span>{props.level}</span></div>
